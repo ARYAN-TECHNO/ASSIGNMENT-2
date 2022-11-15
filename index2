@@ -1,0 +1,33 @@
+// problem for simple interest.
+package test;
+
+import java.util.Scanner;
+
+public class testing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+      Scanner sc = new Scanner(System.in);
+      float p,r,t,si;
+      System.out.println("ENTER THE PRINCIPAL AMOUNT:");
+      p = sc.nextFloat();
+      System.out.println("ENTER THE RATE:");
+      r = sc.nextFloat();
+      System.out.println("ENTER THE RATE:");
+      t = sc.nextFloat();
+     
+      si =(p*r*t)/100;
+      System.out.println("Simple interest is:" + si);
+    		  
+	}
+
+}
+
+//OUTPUT:
+ENTER THE PRINCIPAL AMOUNT:
+13000
+ENTER THE RATE:
+2
+ENTER THE RATE:
+2
+Simple interest is:520.0
